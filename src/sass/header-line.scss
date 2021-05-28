@@ -1,0 +1,10 @@
+.header-line{
+  background:url("../images/headerBg/bg.jpg")top/cover no-repeat;
+  box-sizing: border-box;
+  &__logo{
+    padding-top: 20px;
+    display: flex;
+    width:800px;
+    margin: 0 auto;
+  }
+}

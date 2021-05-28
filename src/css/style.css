@@ -1,0 +1,152 @@
+@import url("../fonts/drukCyr/stylesheet.css");
+@import url("../fonts/AstrumScriptCyrillic/stylesheet.css");
+@import url("../fonts/VerryBerry/stylesheet.css");
+@import url("../fonts/Artic/stylesheet.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.header-line {
+  background: url("../images/headerBg/bg.jpg") top/cover no-repeat;
+  box-sizing: border-box;
+}
+.header-line__logo {
+  padding-top: 20px;
+  display: flex;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.main__menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+.main__menu-item {
+  width: 16.66%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  position: relative;
+  box-shadow: inset #ebab00 0 -1px 1px, inset 0 1px 1px #ffbf00, #cc7722 0 0 0 1px, #000 0 10px 15px -10px;
+  border-color: #f80a0a;
+}
+.main__menu-item:first-child {
+  box-shadow: inset #ebab00 0 -1px 1px, inset 0 1px 1px #ffbf00, #cc7722 0 0 0 1px, #000 0 10px 15px -10px;
+}
+.main__menu-item:hover {
+  background-color: #c8c5c5;
+  color: #facca7;
+  box-shadow: inset 0px 0px 13px rgba(217, 128, 128, 0.25);
+}
+.main__menu-item::before {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 1px;
+  background: linear-gradient(180deg, #F2F2F2 0%, #C4C4C4 51.04%, #F2F2F2 100%);
+}
+.main__menu-item:last-child::before {
+  display: none;
+}
+.main__menu-item:first-child .main__menu-link, .main__menu-item:hover .main__menu-link {
+  color: #ffffff;
+}
+.main__menu-link {
+  text-decoration: none;
+  font-family: "ArticaPro", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.poster__article {
+  padding-top: 10px;
+}
+.poster__cont-text {
+  padding: 10px;
+  text-align: center;
+  font-family: "ArticaPro", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 38px;
+  color: #faf9f9;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 30em;
+  border: 3px;
+  box-shadow: inset #ebab00 0 -1px 1px, inset 0 1px 1px #ffbf00, #cc7722 0 0 0 1px, #000 0 10px 15px -10px;
+  border-radius: 10px;
+}
+.poster__cont-title {
+  text-align: center;
+  font-family: "ArticaPro", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 32px;
+  color: #faf9f9;
+  margin: 150px 0 0 0;
+}
+.poster__bg1 {
+  background: url("../images/posters/img1.png") center/cover no-repeat;
+  width: 100%;
+  height: 700px;
+}
+.poster__bg2 {
+  background: url("../images/posters/img2.png") center/cover no-repeat;
+  width: 100%;
+  height: 800px;
+}
+.poster__bg3 {
+  background: url("../images/posters/img3.jpg") center/cover no-repeat;
+  width: 100%;
+  height: 700px;
+}
+.poster__button {
+  margin: 50px auto;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  justify-items: center;
+  display: flex;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  text-shadow: 0 -1px 1px #cc5500;
+  -webkit-user-select: none;
+          user-select: none;
+  padding: 0.8em 2em;
+  outline: none;
+  border-radius: 1px;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.3)), linear-gradient(#d77d31, #fe8417, #d77d31);
+  background-size: 100% 100%, auto;
+  background-position: 50% 50%;
+  box-shadow: inset #ebab00 0 -1px 1px, inset 0 1px 1px #ffbf00, #cc7722 0 0 0 1px, #000 0 10px 15px -10px;
+  transition: 0.2s;
+}
+.poster__button:hover {
+  background-size: 140% 100%, auto;
+}
+.poster__button:active {
+  top: 1px;
+  color: #ffdead;
+  box-shadow: inset #ebab00 0 -1px 1px, inset 0 1px 1px #ffbf00, #cc7722 0 0 0 1px, 0 10px 10px -9px #000;
+}

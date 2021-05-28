@@ -1,0 +1,90 @@
+.poster {
+
+&__article{
+  padding-top: 10px;
+
+}
+  &__cont-text {
+    padding: 10px;
+    text-align: center;
+    font-family: "ArticaPro", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 38px;
+    color: #faf9f9;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30em;
+    border: 3px;
+    box-shadow: inset #ebab00 0 -1px 1px, inset 0 1px 1px #ffbf00, #cc7722 0 0 0 1px, #000 0 10px 15px -10px;
+    border-radius: 10px;
+
+
+  }
+  &__cont-title{
+    text-align: center;
+    font-family: "ArticaPro", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 32px;
+    color: #faf9f9;
+    margin: 150px 0 0 0;
+
+  }
+  &__bg1 {
+    background: url("../images/posters/img1.png") center/cover no-repeat;
+    width: 100%;
+    height: 700px;
+
+
+
+
+  }
+  &__bg2 {
+    background: url("../images/posters/img2.png") center/cover no-repeat;
+    width: 100%;
+    height: 800px;
+
+
+  }
+  &__bg3 {
+    background: url("../images/posters/img3.jpg") center/cover no-repeat;
+    width: 100%;
+    height: 700px;
+
+
+  }
+  &__button{
+    margin: 50px auto;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    justify-items: center;
+    display: flex;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #cc5500;
+    user-select: none;
+    padding: .8em 2em;
+    outline: none;
+    border-radius: 1px;
+    background: linear-gradient(to left, rgba(0,0,0,.3), rgba(0,0,0,.0) 50%, rgba(0,0,0,.3)), linear-gradient(#d77d31, #fe8417, #d77d31);
+    background-size: 100% 100%, auto;
+    background-position: 50% 50%;
+    box-shadow: inset #ebab00 0 -1px 1px, inset 0 1px 1px #ffbf00, #cc7722 0 0 0 1px, #000 0 10px 15px -10px;
+    transition: 0.2s;
+  }
+  &__button:hover {
+    background-size: 140% 100%, auto;
+  }
+  &__button:active {
+    top: 1px;
+    color: #ffdead;
+    box-shadow: inset #ebab00 0 -1px 1px, inset 0 1px 1px #ffbf00, #cc7722 0 0 0 1px, 0 10px 10px -9px #000;
+  }
+
+  }

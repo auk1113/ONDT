@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'VeryBerryPro';
+    src: url('VeryBerryPro-Regular.eot');
+    src: local('☞VeryBerry Pro'), local('VeryBerryPro-Regular'),
+        url('VeryBerryPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('VeryBerryPro-Regular.woff2') format('woff2'),
+        url('VeryBerryPro-Regular.woff') format('woff'),
+        url('VeryBerryPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

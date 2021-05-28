@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Astrum CL';
+    src: url('AstrumScriptCyrillic_Light.eot');
+    src: local('AstrumScriptCyrillic_Light'),
+        url('AstrumScriptCyrillic_Light.eot?#iefix') format('embedded-opentype'),
+        url('AstrumScriptCyrillic_Light.woff2') format('woff2'),
+        url('AstrumScriptCyrillic_Light.woff') format('woff'),
+        url('AstrumScriptCyrillic_Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Astrum CB';
+    src: url('AstrumScriptCyrillic_Bold.eot');
+    src: local('AstrumScriptCyrillic_Bold'),
+        url('AstrumScriptCyrillic_Bold.eot?#iefix') format('embedded-opentype'),
+        url('AstrumScriptCyrillic_Bold.woff2') format('woff2'),
+        url('AstrumScriptCyrillic_Bold.woff') format('woff'),
+        url('AstrumScriptCyrillic_Bold.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Astrum CR';
+    src: url('AstrumScriptCyrillic_Regular.eot');
+    src: local('AstrumScriptCyrillic_Regular'),
+        url('AstrumScriptCyrillic_Regular.eot?#iefix') format('embedded-opentype'),
+        url('AstrumScriptCyrillic_Regular.woff2') format('woff2'),
+        url('AstrumScriptCyrillic_Regular.woff') format('woff'),
+        url('AstrumScriptCyrillic_Regular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
